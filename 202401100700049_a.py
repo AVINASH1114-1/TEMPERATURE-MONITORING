@@ -12,7 +12,7 @@ import random
 def monitor_temperature(lower_limit, upper_limit):
 
     temperature = random.uniform(-10, 50)
-    print(f"Current Temperature: {temperature:.2f}°C")
+    print(f"Current Temperature: {temperatures:.2f}°C")
 
 
     if temperature < lower_limit:
@@ -29,4 +29,3 @@ upper_limit = float(input("Enter upper temperature limit: "))
 
 monitor_temperature(lower_limit, upper_limit)
 
-6
